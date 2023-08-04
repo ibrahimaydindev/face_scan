@@ -37,10 +37,10 @@ publishing {
     publications {
         create<MavenPublication>("android") {
             groupId = "com.texinsight"
-            artifactId = "newky_face-debug"
-            version = "1.0"
+            artifactId = "newky_face"
+            version = "1.0.0"
 
-            artifact("newky_face-debug.aar") {
+            artifact("newky_face-1.0.0.aar") {
                 extension = "aar"
             }
 
