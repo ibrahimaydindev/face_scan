@@ -11,12 +11,12 @@ dependencies {
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation ("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation ("androidx.navigation:navigation-ui-ktx:2.5.3")
-    implementation ("androidx.camera:camera-core:1.3.0-beta02")
-    implementation ("androidx.camera:camera-camera2:1.3.0-beta02")
-    implementation ("androidx.camera:camera-lifecycle:1.3.0-beta02")
-    implementation ("androidx.camera:camera-video:1.3.0-beta02")
-    implementation ("androidx.camera:camera-view:1.3.0-beta02")
-    implementation ("androidx.camera:camera-extensions:1.3.0-beta02")
+    implementation ("androidx.camera:camera-core:1.3.0-alpha06")
+    implementation ("androidx.camera:camera-camera2:1.3.0-alpha06")
+    implementation ("androidx.camera:camera-lifecycle:1.3.0-alpha06")
+    implementation ("androidx.camera:camera-video:1.3.0-alpha06")
+    implementation ("androidx.camera:camera-view:1.3.0-alpha06")
+    implementation ("androidx.camera:camera-extensions:1.3.0-alpha06")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
@@ -36,11 +36,11 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("android") {
-            groupId = "com.texinsight"
-            artifactId = "newky_face-debug"
-            version = "1.0"
+            groupId = "com.texinsight.newky_face"
+            artifactId = "newky_face"
+            version = "1.0.0"
 
-            artifact("newky_face-debug.aar") {
+            artifact("newky_face-1.0.0.aar") {
                 extension = "aar"
             }
 
