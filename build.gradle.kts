@@ -36,7 +36,7 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("android") {
-            groupId = "com.texinsight.newky_face"
+            groupId = "com.texinsight"
             artifactId = "newky_face"
             version = "1.0.0"
 
