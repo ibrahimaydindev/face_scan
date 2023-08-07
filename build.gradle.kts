@@ -36,11 +36,11 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("android") {
-            groupId = "com.texinsight.newky_face"
+            groupId = "com.github.ibrahimaydindev"
             artifactId = "newky_face"
-            version = "1.0.0"
+            version = "1.0"
 
-            artifact("newky_face-1.0.0.aar") {
+            artifact("newky_face-1.0.aar") {
                 extension = "aar"
             }
 
